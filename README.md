@@ -2,6 +2,19 @@
 * 使用 Mac 中的 MacVim,脱离了命令行窗口,和由命令行直接进入的 vim 有所区别.
 * MacVim 使用一部分软件自带的快捷键,无法修改,但也带来一定便利.
 * 在安装图形显示的插件时无论在 Mac/Ubuntu 中都有字符显示不出来,必须安装 nerd-fonts 字体.
+    #### clone
+    git clone https://github.com/powerline/fonts.git
+    #### install
+    cd fonts
+    ./install.sh
+    #### clean-up a bit
+    cd ..
+    rm -rf fonts
+    #### 执行命令在vimrc文件中添加指令
+    echo '"airline options' >> ~/.vimrc
+    echo 'let g:airline_powerline_fonts=1' >> ~/.vimrc
+    sed -n '193,195p' ~/.vim/bundle/vim-airline/doc/airline.txt >> ~/.vimrc
+    sed -n '216,223p' ~/.vim/bundle/vim-airline/doc/airline.txt >> ~/.vimrc
 
 ### 可以批量安装的插件参考
 * [vimplus](https://github.com/chxuan/vimplus)
@@ -16,11 +29,6 @@ ranger
 -------
 * 中英文排版参考 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 * [cw大神的配置](https://github.com/theniceboy/vimrc-example) 
-
-
-
-
-
 
 
 
