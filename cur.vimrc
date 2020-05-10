@@ -11,6 +11,11 @@ map <F9> :NERDTreeToggle<CR>
 nnoremap <F12> :TaskList<CR>
 "用空格键来开关折叠
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc':'zo')<CR>
+"buffer 切换 前一个,下一个,新建,删除
+nnoremap <silent> <F5> :bprevious<CR>
+nnoremap <silent> <F6> :bnext<CR>
+nnoremap <silent> <F7> :enew<CR>
+nnoremap <silent> <F8> :bdelete<CR>
 
 "代码折叠,行号,缩进
 set foldmethod=indent "依照缩进折叠
@@ -24,7 +29,6 @@ set ts=4 "TAB替换为空格
 set expandtab
 %retab!
 set autoindent "语法自动缩进
-
 set linespace=4
 
 "tasklist.vim  任务列表插件 单词顺序会在todo列表里按自己分类的顺序显示
@@ -65,7 +69,17 @@ set lines=50 columns=180
 set guifont=Consolas:h18
 set guifontwide=Microsoft\ YaHei:h18
 
-"切换标签,只在windows下有效,mac下无效
+"切换标签,只在windows下有效,mac下无效,应该结合vim-airline插件使用,切换buffer
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
+let g:airline#extensions#tabline#show_tab_nr = 1
+let g:airline#extensions#tabline#formatter = 'default'
+let g:airline#extensions#tabline#buffer_nr_show = 0
+let g:airline#extensions#tabline#fnametruncate = 16
+let g:airline#extensions#tabline#fnamecollapse = 2
+let g:airline#extensions#tabline#buffer_idx_mode = 1
+
+
 :nn <C-1> 1gt
 :nn <C-2> 2gt
 :nn <C-3> 3gt
