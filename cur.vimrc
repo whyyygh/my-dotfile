@@ -71,7 +71,7 @@ set guifont=Droid\ Sans\ Mono\ Dotted\ for\ Powerline:h18  "添加powerline字�
 set lines=50 columns=180
 
 "切换标签,只在windows下有效,mac下无效,应该结合vim-airline插件使用,切换buffer
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 1 "顶部tab显示
 let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
 let g:airline#extensions#tabline#show_tab_nr = 1
 let g:airline#extensions#tabline#formatter = 'default'
