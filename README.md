@@ -2,7 +2,7 @@
 * 使用 Mac 中的 MacVim,脱离了命令行窗口,和由命令行直接进入的 vim 有所区别.
 * MacVim 使用一部分软件自带的快捷键,无法修改,但也带来一定便利.
 * 在安装图形显示的插件时无论在 Mac/Ubuntu 中都有字符显示不出来,必须安装 nerd-fonts 字体.
-#### airline安装字体,显示特殊字符
+#### airline安装字体,显示特殊字符,包有点大,需要梯子
     # clone
     git clone https://github.com/powerline/fonts.git
     # install
