@@ -67,8 +67,9 @@ hi FoldColumn guibg=black guifg=grey20 ctermfg=4 ctermbg=7
 
 "显示行列比例,字体大小
 "set guifont=Courier_new:h18
-set guifont=Droid\ Sans\ Mono\ Dotted\ for\ Powerline:h18  "添加powerline字体后在设置里找出的一种字体
-set lines=50 columns=180
+"set guifont=Droid\ Sans\ Mono\ Dotted\ for\ Powerline:h19  "添加powerline字体后在设置里找出的一种字体
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h19  "添加powerline字体后在设置里找出的一种字体
+set lines=50 columns=170
 
 "切换标签,只在windows下有效,mac下无效,应该结合vim-airline插件使用,切换buffer
 let g:airline#extensions#tabline#enabled = 1 "顶部tab显示
@@ -103,7 +104,7 @@ let g:airline_symbols.linenr = '☰'
 let g:airline_symbols.maxlinenr = ''
 let g:airline_symbols.dirty='⚡'
 
-
+"对标签页切换的快捷键
 :nn <C-1> 1gt
 :nn <C-2> 2gt
 :nn <C-3> 3gt
