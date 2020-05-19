@@ -27,10 +27,13 @@
 * [vimplus](https://github.com/chxuan/vimplus)
 
 ### vim 配置文件
-.vimrc
+vim_config .vimrc  
 
 ### ranger 配置文件
 ranger
+
+### github 配置文件
+github_config
 
 参考文献
 -------
