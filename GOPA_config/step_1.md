@@ -1,16 +1,16 @@
 ## 写在前面,用来记录各种项目中的具体问题,和解决办法
-* 安装和实验
+## 安装和实验
     infinitbyte/gopa [](https://github.com/infinitbyte/gopa)
-* 实验目的:
+## 实验目的:
     没使用过 golang,想了解一下
     初步了解 go 爬虫运行原理
     试试大神的 GOPA 厉害到什么程度
-* 环境准备
+## 环境准备
     win10 系统
     go 1.14.3 按照并设置好环境变量路径
     IDE golang
     git
-* 按照 GOPA wiki "How to build GOPA on windows",按套路出牌,一步一步走.
+## 按照 GOPA wiki "How to build GOPA on windows",按套路出牌,一步一步走.
     @@@ 3.Install tdm-gcc 出现问题,安装这个好像是编译 gcc 的工具出现问题
     截图(fig1.png)
     好像是找不到那个 net-manifest.txt 文件
@@ -24,7 +24,7 @@
     下载后360直接报病毒,截图(fig2.png).
     这时想起以前的爬山好友震哥,总带着两把剪刀,他的解释是有一把可能会丢.
     试验进行到这可以终止了,按照回滚思想,windows 不行是吧,那就再试 linux 和 mac.
-* mac 机器上没有环境还得继续搭建,开始预估将来问题会不会再次出现,还会不会是什么 gcc 编译器的问题,今天任务完成,明天再试.
+## mac 机器上没有环境还得继续搭建,开始预估将来问题会不会再次出现,还会不会是什么 gcc 编译器的问题,今天任务完成,明天再试.
     还不能算完,FOMO 思想提示跳过所有步骤,直接运行 linux 可执行文件
     截图(fig3.png),mac 命令行可运行 ./gopa-darwin64,但是提示 "no Elasticsearch node available".
     一环接一环,这也没提示要连这个疯狂的引擎啊...
