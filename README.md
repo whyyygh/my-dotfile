@@ -1,4 +1,5 @@
 ### 写在前面
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 * 自己写个软件跑起来并不难,难的是出了问题就能解决,并且不断的按照计划推进
 * 本来想放些备份的配置文件在这个仓库中,后来发现总有问题得记录一下
 * 路漫漫其修远兮,什么叫基础?基础就是提前做好的准备工作,准备的不足就是日后问题出现的根源
