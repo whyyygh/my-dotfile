@@ -15,12 +15,12 @@
     cd fonts
     ./install.sh
     
-    # 在vimrc文件中添加指令
+    # 在 vimrc 文件中添加指令
     # 在 macvim 菜单设置中找到合适的powerline字体名称
     set guifont=Droid\ Sans\ Mono\ Dotted\ for\ Powerline:h18  "添加powerline字体后在设置里找出的一种字体
     set lines=50 columns=180
     
-    # 在/vim-airline/doc/airline.txt 中找到,添加到vimrc中 
+    # 在/vim-airline/doc/airline.txt 中找到,添加到 vimrc 中 
     let g:airline_left_sep = ''
     let g:airline_left_alt_sep = ''
     let g:airline_right_sep = ''
