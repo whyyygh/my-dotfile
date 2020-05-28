@@ -45,7 +45,7 @@ autocmd VimEnter * NERDTree
 let NERDTreeShowBookmarks=1
 
 "encoding
-set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set fileencodings=utf-8,utf-16le,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
 set encoding=utf-8
 set langmenu=zh_CN.UTF-8
